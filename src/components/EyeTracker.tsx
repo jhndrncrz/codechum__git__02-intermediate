@@ -1,4 +1,4 @@
-export function EyeTracker() {
+export function MouseTracker() {
     return (
         <>
         </>
