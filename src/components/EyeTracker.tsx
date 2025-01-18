@@ -1,8 +1,10 @@
+// TODO: identify how to get current gaze position coordinates
+
 import { useState, useEffect } from 'react';
 import { Button, Code, Text } from '@mantine/core';
 
 // @ts-ignore
-import * as webgazer from 'webgazer';
+import webgazer from 'webgazer';
 
 export function EyeTracker() {
     const [gazeData, setGazeData] = useState({ x: null, y: null });
