@@ -1,0 +1,3 @@
+[submodule "src/modules/webgazer"]
+	path = src/modules/webgazer
+	url = https://github.com/brownhci/WebGazer.git
