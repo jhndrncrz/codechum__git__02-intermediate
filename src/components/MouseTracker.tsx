@@ -6,7 +6,7 @@ export function MouseTracker() {
 
     return (
         <Text ta="center">
-          Mouse coordinates <Code>{`{ x: ${x}, y: ${y} }`}</Code>
+            Mouse coordinates <Code>{`{ x: ${x}, y: ${y} }`}</Code>
         </Text>
     );
 }
