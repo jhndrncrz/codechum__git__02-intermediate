@@ -1,4 +1,5 @@
-import {AppShell, Burger, Flex, Text} from '@mantine/core';
+import { Outlet } from 'react-router';
+import { AppShell, Burger, Flex, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
 export function App() {
@@ -43,7 +44,7 @@ export function App() {
               </AppShell.Navbar>
 
               <AppShell.Main>
-
+                  <Outlet />
               </AppShell.Main>
         </AppShell>
   );
