@@ -43,7 +43,7 @@ export function App() {
               </AppShell.Navbar>
 
               <AppShell.Main>
-
+                  Demo Content for Main
               </AppShell.Main>
         </AppShell>
   );
