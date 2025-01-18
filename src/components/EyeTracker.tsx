@@ -1,3 +1,5 @@
+// TODO: identify how to get current gaze position coordinates
+
 import { useState, useEffect } from 'react';
 import { Button, Code, Text } from '@mantine/core';
 
