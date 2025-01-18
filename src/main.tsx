@@ -16,7 +16,7 @@ import '@mantine/spotlight/styles.css'
 import '@mantine/nprogress/styles.css'
 
 import { createTheme, MantineProvider } from '@mantine/core'
-import { MouseTracker, EyeTracker, CodeEditor } from 'components';
+import { MouseTracker, EyeTracker, CodeEditor } from './components';
 
 const theme = createTheme({
   /** Put your mantine theme override here */

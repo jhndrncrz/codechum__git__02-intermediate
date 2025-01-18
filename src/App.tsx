@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router';
+import { NavLink, Outlet } from 'react-router';
 import { AppShell, Burger, Flex, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
@@ -40,7 +40,19 @@ export function App() {
               <AppShell.Navbar
                   p="md"
               >
-                  Navbar
+                  <Flex direction='column'>
+                      <NavLink to='/'>
+                          Code Editor
+                      </NavLink>
+
+                      <NavLink to='/eye-tracker'>
+                          Eye Tracker
+                      </NavLink>
+
+                      <NavLink to='/mouse-tracker'>
+                          Mouse Tracker
+                      </NavLink>
+                  </Flex>
               </AppShell.Navbar>
 
               <AppShell.Main>
